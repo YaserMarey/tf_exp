@@ -18,7 +18,6 @@ The Fashion-MNIST dataset contains Zalando's article images, with 28x28 grayscal
     -   Dense layer with 1024 neurons
     -   Dense layer with 10 neurons, to predict the digit for the current image
 
-
 Process:
 
     Build the input layer using the reshape() function.
