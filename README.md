@@ -20,12 +20,15 @@ Similarly meant as a replacement to MNIST, the Fashion-MNIST dataset contains Za
     -   Dense layer with 10 neurons, to predict the digit for the current image
 
 #### Process
-    -   Load data from keras.datasets, normalize images, reshape them to x,28,28,1 and convert labels to one hot, continue the following steps using training set only, keep test set for final model verification
-    -   Construct the CNN according to the architecture detailed above, compile the model with Stochastic Gradient Descent, learning rate 0.01 and momentum is 0.9
+    -   Load data from keras.datasets, normalize images, reshape them to x,28,28,1 and convert labels to one hot.
+    -   continue the following steps using training set only, keep test set for final model verification
+    -   Construct the CNN according to the architecture detailed above.
+    -   Compile the model with Stochastic Gradient Descent, learning rate 0.01 and momentum is 0.9
     -   Train and cross-validate on 5 folds train, test sets for 10 epochs using a batch size of 128 sample
-    -   Plot performance, diagnose, and repeat until satisfied with the model accuracy, hence    found the architecture and parameters mentioned here to be working the best.
-    -   Once done with developing the model as in the above steps, train the model on the entire training set, test on the test set aside in the first step to verify the model performance, save the model parameters to the disk
+    -   Plot performance, diagnose, and repeat until satisfied with the model accuracy, hence found the architecture and parameters mentioned here to be working the best.
+    -   Once done with developing the model as in the above steps, train the model on the entire training set, test on the test set aside in the first step to verify the model performance.
+    -   Save the model parameters to the disk
 
 #### Performance
-- Test accuracy achieved on the Never seen test set is 99.070% for MNIST
-- Test accuracy achieved on the Never seen test set is 89.95% for Fashion_MNIST
+    - Test accuracy achieved on the Never seen test set is 99.070% for MNIST
+    - Test accuracy achieved on the Never seen test set is 89.95% for Fashion_MNIST
