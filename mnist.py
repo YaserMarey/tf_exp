@@ -56,7 +56,7 @@ def construct_and_compile_model():
             k.layers.MaxPooling2D(pool_size=(2, 2)),
             k.layers.Flatten(),
             k.layers.Dense(100, activation='relu', kernel_initializer='he_uniform'),
-            k.layers.Dense(10, activation="softmax"),
+            k.layers.Dense(10, activation="softmax")
         ]
     )
     model.compile(loss=k.losses.categorical_crossentropy,
