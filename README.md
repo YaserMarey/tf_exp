@@ -11,7 +11,7 @@ The MNIST dataset contains images of handwritten digits from 0 to 9, with 28x28 
 Similarly meant as a replacement to MNIST, the Fashion-MNIST dataset contains Zalando's article images, with 28x28 grayscale images of 65,000 fashion products from 10 categories, and 6,500 images per category. The training set has 60,000 images, and the test set has 10,000 images. 
 
 #### Process
-    -   Load data from keras.datasets, normalize images, reshape them to x,28,28,1 and convert labels to one hot.
+    -   Load data from keras.datasets, normalize and reshape them to x,28,28,1 and convert labels to one hot.
     -   continue the following steps using training set only, keep test set for final model verification
     -   Construct the CNN according to the architecture detailed above.
     -   Compile the model with Stochastic Gradient Descent, learning rate 0.01 and momentum is 0.9
