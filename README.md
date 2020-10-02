@@ -12,9 +12,10 @@ a 2 bedroom house costs 150k etc. We want to create a neural network that learns
 so that it would predict a 7 bedroom house as costing close to 400k
 
 ### Experiment # 2
-
-Convolutional Neural Network to Detect Handwritten Digits - MINST DataSet
-Convolutional Neural Network to Detect Fashion Articles - Fashion-MINST DataSet
+In this experiment I am developing a template like code that has the needed steps to train and classify images. 
+I am testing this template with two datasets:
+Convolutional Neural Network to Detect Handwritten Digits - MINST DataSet http://yann.lecun.com/exdb/mnist/ 
+Convolutional Neural Network to Detect Fashion Articles - Fashion-MINST DataSet https://github.com/zalandoresearch/fashion-mnist
 
 #### DataSet
 The MNIST dataset contains images of handwritten digits from 0 to 9, with 28x28 grayscale images of 65,000 fashion products from 10 categories, and 6,500 images per category. The training set has 60,000 images, and the test set has 10,000 images.
@@ -34,6 +35,7 @@ Similarly meant as a replacement to MNIST, the Fashion-MNIST dataset contains Za
     -   Save the model parameters to the disk
 
 #### Architecture:
+I am using same architecture for both datasets and interestingly it works staifacotry enough without a change from MNIST to Fashion-MNIST datasets:
 
     -   Convolutional layer with 32 3×3 filters
     -   Pooling layer with 2×2 filter
