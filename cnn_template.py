@@ -1,7 +1,7 @@
 # Exp-2
 # ### Experiment # 2
 # In this experiment I am developing a template like code that has the needed steps to train and classify images.
-# I am testing this template with two datasets:
+# I am testing this template with two datasets and I am using CNN as the following:
 # Convolutional Neural Network to Detect Handwritten Digits - MINST DataSet http://yann.lecun.com/exdb/mnist/
 # Convolutional Neural Network to Detect Fashion Articles - Fashion-MINST DataSet https://github.com/zalandoresearch/fashion-mnist
 #
@@ -97,7 +97,7 @@ def evaluate_final_model(model, x_test, y_test):
 # ###########################################
 
 def load_dataset():
-    # (x_train, y_train), (x_test, y_test) = k.datasets.mnist.load_data()
+    # (x_train, y_train), (x_test, y_test) = k.datasets.fashion_mnist.load_data()
     (x_train, y_train), (x_test, y_test) = k.datasets.fashion_mnist.load_data()
     # summarize loaded dataset
     print('Train: X={0}, y={1}'.format(x_train.shape, y_train.shape))

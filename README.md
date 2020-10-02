@@ -53,3 +53,6 @@ I am using same architecture for both datasets and interestingly it works staifa
 ### Experiment # 3
 Callback function allows us to stop the training when for example performance
 reaches a desired value or a specific number of epochs.
+
+### Experiment # 4
+Comparing CNN and DNN applied to Fahsion-MNIST
