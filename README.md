@@ -7,15 +7,16 @@ The simplest possible! One node neural network
 
 ### Experiment # 1
 
-If house pricing was 50k + 50k per bedroom, so that a 1 bedroom house costs 100k,
-a 2 bedroom house costs 150k etc. We want to create a neural network that learns this relationship
+If house pricing was 50k + 50k per bedroom so that a 1 bedroom house costs 100k,
+a 2 bedroom house costs 150k, etc. We want to create a neural network that learns this relationship
 so that it would predict a 7 bedroom house as costing close to 400k
 
 ### Experiment # 2
-In this experiment I am developing a template like code that has the needed steps to train and classify images. 
+In this experiment, I am developing a template like code that has the needed steps to train and classify images. 
 I am testing this template with two datasets and I am using CNN as the following:
 
-Convolutional Neural Network to Detect Handwritten Digits - MINST DataSet http://yann.lecun.com/exdb/mnist/ 
+Convolutional Neural Network to Detect Handwritten Digits - MINST DataSet 
+http://yann.lecun.com/exdb/mnist/ 
 
 Convolutional Neural Network to Detect Fashion Articles - Fashion-MINST DataSet https://github.com/zalandoresearch/fashion-mnist
 
@@ -24,12 +25,12 @@ The MNIST dataset contains images of handwritten digits from 0 to 9, with 28x28 
 Similarly meant as a replacement to MNIST, the Fashion-MNIST dataset contains Zalando's article images, with 28x28 grayscale images of 65,000 fashion products from 10 categories, and 6,500 images per category. The training set has 60,000 images, and the test set has 10,000 images. 
 
 #### Process
-    -   Load data from keras.datasets, normalize and reshape them to x,28,28,1 and convert labels to one hot.
-    -   continue the following steps using training set only, keep test set for final model verification
+    -   Load data from Keras.datasets, normalize, and reshape them to x,28,28,1, and convert labels to one hot.
+    -   continue the following steps using the training set only, keep test set for final model verification
     -   Construct the CNN according to the architecture detailed above.
     -   Compile the model with Stochastic Gradient Descent, learning rate 0.01 and momentum is 0.9
     -   Train and cross-validate on 5 folds train, test sets for 10 epochs using a batch size of 128 sample
-    -   Plot performance, diagnose, tune parameters and archicture, handle overfitting and variance.
+    -   Plot performance, diagnose, tune parameters and architecture, handle overfitting and variance.
     -   Repeat until satisfied with the model accuracy.
     -   Once done with developing the model as in the above steps:
             -   Train the model on the entire training set
@@ -37,7 +38,7 @@ Similarly meant as a replacement to MNIST, the Fashion-MNIST dataset contains Za
     -   Save the model parameters to the disk
 
 #### Architecture:
-I am using same architecture for both datasets and interestingly it works staifacotry enough without a change from MNIST to Fashion-MNIST datasets:
+I am using the same architecture for both datasets and interestingly it works satisfactory enough without a change from MNIST to Fashion-MNIST datasets:
 
     -   Convolutional layer with 32 3×3 filters
     -   Pooling layer with 2×2 filter
@@ -51,8 +52,15 @@ I am using same architecture for both datasets and interestingly it works staifa
     - Test accuracy achieved on the Never seen test set is 89.95% for Fashion_MNIST
 
 ### Experiment # 3
-Callback function allows us to stop the training when for example performance
-reaches a desired value or a specific number of epochs.
+The callback function allows us to stop the training when for example performance
+reaches the desired value or a specific number of epochs.
 
 ### Experiment # 4
-Comparing CNN and DNN applied to Fahsion-MNIST
+Comparing CNN and DNN applied to Fashion-MNIST. This is meant to compare implementation details rather than performance.
+Tensorflow and Keras make implementation very similar by hiding most of the details. tf.keras.layers provide simple Conv2D and MaxPooling2D to create a convolution and max-pooling layers.
+##### CNN results
+-   Accuracy of the model on training data is 0.9301833510398865
+-   Accuracy of the model on unseen test data is 0.9056000113487244
+##### DNN results
+-   Accuracy of the model on training data is 0.9962666630744934
+-   Accuracy of the model on unseen test data is 0.9800999760627747
