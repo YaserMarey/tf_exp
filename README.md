@@ -1,7 +1,17 @@
 # tf_exp
 Experimenting with TensorFlow
 
-Experiment # 1
+### Experiment # 0
+
+The simplest possible! One node neural network
+
+### Experiment # 1
+
+If house pricing was 50k + 50k per bedroom, so that a 1 bedroom house costs 100k,
+a 2 bedroom house costs 150k etc. We want to create a neural network that learns this relationship
+so that it would predict a 7 bedroom house as costing close to 400k
+
+### Experiment # 2
 
 Convolutional Neural Network to Detect Handwritten Digits - MINST DataSet
 Convolutional Neural Network to Detect Fashion Articles - Fashion-MINST DataSet
@@ -35,3 +45,7 @@ Similarly meant as a replacement to MNIST, the Fashion-MNIST dataset contains Za
 #### Performance
     - Test accuracy achieved on the Never seen test set is 99.070% for MNIST
     - Test accuracy achieved on the Never seen test set is 89.95% for Fashion_MNIST
+
+### Experiment # 3
+Callback function allows us to stop the training when for example performance
+reaches a desired value or a specific number of epochs.

@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b25cfcd5-a3cf-4a88-becd-114f873cbc8d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mnist_with_callback.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_mnist_final_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/fashion_mnist_final_model.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnist.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/one_node_nn.py" beforeDir="false" afterPath="$PROJECT_DIR$/one_node_nn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/predicting_house_price.py" beforeDir="false" afterPath="$PROJECT_DIR$/predicting_house_price.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,14 +30,14 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="16" />
+          <entry key="py" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="16" />
+          <entry key="Python" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -40,16 +45,16 @@
           <entry key="Python Console" value="22" />
           <entry key="dummy" value="9" />
           <entry key="gitignore" value="22" />
-          <entry key="md" value="1552" />
-          <entry key="py" value="10607" />
-          <entry key="txt" value="30" />
+          <entry key="md" value="1620" />
+          <entry key="py" value="11581" />
+          <entry key="txt" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="1552" />
-          <entry key="PLAIN_TEXT" value="61" />
-          <entry key="Python" value="10629" />
+          <entry key="Markdown" value="1620" />
+          <entry key="PLAIN_TEXT" value="85" />
+          <entry key="Python" value="11603" />
         </counts>
       </usages-collector>
     </session>
@@ -60,8 +65,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="25">
-                <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+              <first_editor relative-caret-position="200">
+                <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               </first_editor>
               <second_editor />
             </state>
@@ -71,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/one_node_nn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="225">
+              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -89,11 +94,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/predicting_house_price.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+            <state relative-caret-position="262">
+              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
               <folding>
                 <element signature="e#293#321#0" expanded="true" />
-                <marker date="1601419562226" expanded="true" signature="314:339" ph="..." />
+                <marker date="1601587682329" expanded="true" signature="337:362" ph="..." />
               </folding>
             </state>
           </provider>
@@ -102,12 +107,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mnist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="57" column="52" lean-forward="true" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
+            <state relative-caret-position="262">
+              <caret line="85" column="28" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="37" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#119#360#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mnist_with_callback.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tensorflow/python/keras/callbacks.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="409" selection-start-line="409" selection-end-line="409" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tensorflow/python/keras/engine/training.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="1091" selection-start-line="1091" selection-end-line="1091" />
             </state>
           </provider>
         </entry>
@@ -126,6 +158,11 @@
       <find>tensorflow</find>
       <find>tf</find>
       <find>globa</find>
+      <find>evaluate_final_model</find>
+      <find>summarize_performance</find>
+      <find>ver</find>
+      <find>callbacks</find>
+      <find>history</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -137,19 +174,20 @@
         <option value="$PROJECT_DIR$/../../DeepLearning/Course_4/W_1/Convolution_model_Application_v1a.py" />
         <option value="$PROJECT_DIR$/minst_.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/one_node_nn.py" />
-        <option value="$PROJECT_DIR$/predicting_house_price.py" />
         <option value="$PROJECT_DIR$/minst.py" />
         <option value="$PROJECT_DIR$/fashion_mnist.py" />
-        <option value="$PROJECT_DIR$/mnist.py" />
+        <option value="$PROJECT_DIR$/one_node_nn.py" />
+        <option value="$PROJECT_DIR$/predicting_house_price.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/mnist.py" />
+        <option value="$PROJECT_DIR$/mnist_with_callback.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="90" />
-    <option name="width" value="1020" />
-    <option name="height" value="1050" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -174,6 +212,10 @@
               <item name="tf_exp" type="462c0819:PsiDirectoryNode" />
               <item name="venv" type="462c0819:PsiDirectoryNode" />
               <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tf_exp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -203,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.fashion_mnist">
+  <component name="RunManager" selected="Python.mnist_with_callback">
     <configuration name="fashion_mnist" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tf_exp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -288,7 +330,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="predicting_house_price" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mnist_with_callback" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tf_exp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -300,7 +342,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/predicting_house_price.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mnist_with_callback.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -311,18 +353,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.minst" />
-      <item itemvalue="Python.predicting_house_price" />
       <item itemvalue="Python.fashion_mnist" />
       <item itemvalue="Python.mnist" />
       <item itemvalue="Python.minst_" />
+      <item itemvalue="Python.mnist_with_callback" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.fashion_mnist" />
+        <item itemvalue="Python.mnist_with_callback" />
         <item itemvalue="Python.mnist" />
+        <item itemvalue="Python.fashion_mnist" />
         <item itemvalue="Python.minst_" />
         <item itemvalue="Python.minst" />
-        <item itemvalue="Python.predicting_house_price" />
       </list>
     </recent_temporary>
   </component>
@@ -362,25 +404,38 @@
       <option name="project" value="LOCAL" />
       <updated>1601576802197</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ReadMe update">
+      <created>1601577064590</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601577064590</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ReadMe update">
+      <created>1601577141510</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601577141510</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.123595506" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20290813" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4893617" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40992907" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30070922" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28936172" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.35602838" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.35602838" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -394,7 +449,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="One node Neural Network" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="ReadMe update" />
+    <option name="LAST_COMMIT_MESSAGE" value="ReadMe update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -414,11 +470,26 @@
           <line>26</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mnist_with_callback.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mnist_with_callback.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>logs</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>y_train</expression-string>
         <language-id>Python</language-id>
@@ -471,24 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/one_node_nn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/predicting_house_price.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-          <folding>
-            <element signature="e#293#321#0" expanded="true" />
-            <marker date="1601419562226" expanded="true" signature="314:339" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tensorflow/python/keras/engine/input_spec.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="499">
@@ -530,8 +583,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mnist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="57" column="52" lean-forward="true" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
+        <state relative-caret-position="262">
+          <caret line="85" column="28" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="37" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#119#360#0" />
@@ -539,11 +592,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tensorflow/python/keras/callbacks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="409" selection-start-line="409" selection-end-line="409" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tensorflow/python/keras/engine/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="1091" selection-start-line="1091" selection-end-line="1091" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnist_with_callback.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one_node_nn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predicting_house_price.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="e#293#321#0" expanded="true" />
+            <marker date="1601587682329" expanded="true" signature="337:362" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="25">
-            <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <first_editor relative-caret-position="200">
+            <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           </first_editor>
           <second_editor />
         </state>

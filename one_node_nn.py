@@ -1,6 +1,7 @@
+# Exp-0
 # The simplest possible!
 # One node neural network
-# Explaination is inline
+# Explanation is inline
 # Good candidate for a code Kata :)
 
 import tensorflow.keras as k

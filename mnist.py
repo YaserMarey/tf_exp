@@ -1,5 +1,6 @@
+# Exp-2
 # MNIST is the classic Computer Vision Image Classification Dataset
-# It is a dataset of 60,000 small square 28×28 pixel grayscale images
+# It is a dataset of 70,000 small square 28×28 pixel grayscale images
 # of handwritten single digits between 0 and 9.
 
 import numpy as np
@@ -24,8 +25,8 @@ def plot_first_few_images(x_train):
 # ###########################################
 
 def load_dataset():
-    (x_train, y_train), (x_test, y_test) = k.datasets.mnist.load_data()
-    # (x_train, y_train), (x_test, y_test) = k.datasets.fashion_mnist.load_data()
+    # (x_train, y_train), (x_test, y_test) = k.datasets.mnist.load_data()
+    (x_train, y_train), (x_test, y_test) = k.datasets.fashion_mnist.load_data()
     # summarize loaded dataset
     print('Train: X={0}, y={1}'.format(x_train.shape, y_train.shape))
     print('Test: X={0}, y={1}'.format(x_test.shape, y_test.shape))
@@ -56,6 +57,7 @@ def construct_and_compile_model():
             k.layers.MaxPooling2D(pool_size=(2, 2)),
             k.layers.Flatten(),
             k.layers.Dense(100, activation='relu', kernel_initializer='he_uniform'),
+            k.layers.Dropout(0.4), #add this in Fashion-MNIST Case to regularize CNN
             k.layers.Dense(10, activation="softmax")
         ]
     )
@@ -175,6 +177,6 @@ y_test, epochs, batch_size = develop_the_model()
 # Phase II: We come out of phase I with the right model we want to keep,
 # now we fit the model to the entire training set and save the model parameters
 # to the dist
-save_final_model(model, x_train, y_train, epochs, batch_size, 'mnist_final_model.h5')
-# save_final_model(model, x_train, y_train, epochs, batch_size, 'fashion_mnist_final_model.h5')
+# save_final_model(model, x_train, y_train, epochs, batch_size, 'mnist_final_model.h5')
+save_final_model(model, x_train, y_train, epochs, batch_size, 'fashion_mnist_final_model.h5')
 evaluate_final_model(model, x_test, y_test)
