@@ -13,8 +13,10 @@ so that it would predict a 7 bedroom house as costing close to 400k
 
 ### Experiment # 2
 In this experiment I am developing a template like code that has the needed steps to train and classify images. 
-I am testing this template with two datasets:
+I am testing this template with two datasets and I am using CNN as the following:
+
 Convolutional Neural Network to Detect Handwritten Digits - MINST DataSet http://yann.lecun.com/exdb/mnist/ 
+
 Convolutional Neural Network to Detect Fashion Articles - Fashion-MINST DataSet https://github.com/zalandoresearch/fashion-mnist
 
 #### DataSet
