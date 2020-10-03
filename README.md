@@ -64,3 +64,11 @@ Tensorflow and Keras make implementation very similar by hiding most of the deta
 ##### DNN results
 -   Accuracy of the model on training data is 0.9962666630744934
 -   Accuracy of the model on unseen test data is 0.9800999760627747
+
+
+### Experiment # 5
+CNN that classify images to happy and sad Constructed with 3 convolutional layers.
+Dataset is save to h-or-s folder on the disk. this folder contains two sub-folders '/h-or-s/happy and '/h-or-s/sad' each contains 30 images of happy or sad faces respectively.
+There is also a separate folder for validation images '/validation-h-or-s' which again contains two subfolders '/validation-h-or-s/happy' '/validation-h-or-s/sad' each contains 10 images.
+The code reads the images from the disk instead of loading them from Keras as we did before with MNIST and Fashion-MNIST. 
+labels are inferred from folders' names
