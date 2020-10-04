@@ -1,34 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b25cfcd5-a3cf-4a88-becd-114f873cbc8d" name="Default Changelist" comment=".">
-      <change afterPath="$PROJECT_DIR$/cnn_dataset_from_disk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h-or-s/happy/happy1-09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h-or-s/happy/happy2-09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h-or-s/sad/sad1-09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h-or-s/sad/sad2-09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validation-h-or-s/happy/happy1-00.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validation-h-or-s/happy/happy1-03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validation-h-or-s/happy/happy1-06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validation-h-or-s/happy/happy1-13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validation-h-or-s/happy/happy1-16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validation-h-or-s/happy/happy2-03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validation-h-or-s/happy/happy2-06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validation-h-or-s/happy/happy2-12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validation-h-or-s/happy/happy2-15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validation-h-or-s/happy/happy2-18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validation-h-or-s/sad/sad1-00.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validation-h-or-s/sad/sad1-03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validation-h-or-s/sad/sad1-06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validation-h-or-s/sad/sad1-12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validation-h-or-s/sad/sad1-15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validation-h-or-s/sad/sad2-03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validation-h-or-s/sad/sad2-06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validation-h-or-s/sad/sad2-12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validation-h-or-s/sad/sad2-15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validation-h-or-s/sad/sad2-19.png" afterDir="false" />
+    <list default="true" id="b25cfcd5-a3cf-4a88-becd-114f873cbc8d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/titanic_dnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,93 +19,83 @@
         <counts>
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="csv" value="2" />
           <entry key="gitignore" value="1" />
+          <entry key="ipynb" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="22" />
+          <entry key="py" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="IPNB" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="22" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="22" />
+          <entry key="Python Console" value="50" />
           <entry key="dummy" value="70" />
           <entry key="gitignore" value="22" />
           <entry key="md" value="2496" />
-          <entry key="py" value="16537" />
-          <entry key="txt" value="134" />
+          <entry key="py" value="17954" />
+          <entry key="txt" value="149" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="2496" />
-          <entry key="PLAIN_TEXT" value="226" />
-          <entry key="Python" value="16559" />
+          <entry key="PLAIN_TEXT" value="241" />
+          <entry key="Python" value="18004" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="229">
-                <caret line="73" selection-start-line="73" selection-end-line="73" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/one_node_nn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/predicting_house_price.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state>
               <folding>
-                <element signature="e#293#321#0" expanded="true" />
+                <element signature="e#266#294#0" expanded="true" />
                 <marker date="1601587682329" expanded="true" signature="337:362" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/titanic_dnn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+              <folding>
+                <element signature="e#563#581#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/submission.csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cnn_template.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="88" selection-start-line="88" selection-end-line="88" />
-              <folding>
-                <element signature="e#2422#2440#0" expanded="true" />
-                <element signature="e#4198#4367#0" />
-                <element signature="e#716#1116#0" />
-                <element signature="e#2492#3524#0" />
-                <element signature="e#3220#3802#0" />
-                <element signature="e#3944#4130#0" />
-                <element signature="e#8926#9167#0" />
-              </folding>
+            <state relative-caret-position="114">
+              <caret line="137" column="39" lean-forward="true" selection-start-line="137" selection-start-column="39" selection-end-line="137" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -143,22 +110,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../DeepLearning.ai/TensorFlow Developer/1-Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning/W_4/course_1_part_8_lesson_4_notebook.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="170" column="19" selection-start-line="170" selection-start-column="19" selection-end-line="170" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cnn_dataset_from_disk.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="71" lean-forward="true" selection-end-line="9" selection-end-column="71" />
-              <folding>
-                <element signature="e#355#378#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="50">
+              <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -166,11 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mnist_with_callback.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-              <folding>
-                <marker date="1601652896824" expanded="true" signature="483:1819" ph="..." />
-              </folding>
+            <state relative-caret-position="1100">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
@@ -178,7 +130,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tensorflow/python/keras/callbacks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
+            <state relative-caret-position="9125">
               <caret line="409" selection-start-line="409" selection-end-line="409" />
             </state>
           </provider>
@@ -187,7 +139,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tensorflow/python/keras/engine/training.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
+            <state relative-caret-position="25625">
               <caret line="1091" selection-start-line="1091" selection-end-line="1091" />
             </state>
           </provider>
@@ -214,6 +166,7 @@
       <find>history</find>
       <find>maxpooling</find>
       <find>fit</find>
+      <find>mom</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -237,14 +190,16 @@
         <option value="$PROJECT_DIR$/cnn_template.py" />
         <option value="$PROJECT_DIR$/cnn_dataset_from_disk.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/titanic_dnn.ipynb" />
+        <option value="$PROJECT_DIR$/titanic_dnn.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="978" />
-    <option name="height" value="1048" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="979" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -252,6 +207,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -277,23 +233,22 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="D:/ProgramData/Anaconda3/Scripts/conda.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GT/7476/ML4T_2017Spring/mc1p1_assess_portfolio" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\0Yasser\repos\tf_exp\h-or-s\sad" />
-      <recent name="D:\0Yasser\repos\tf_exp\h-or-s\happy" />
-      <recent name="D:\0Yasser\repos\tf_exp" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\0Yasser\repos\tf_exp" />
       <recent name="D:\0Yasser\repos\tf_exp\h-or-s\sad" />
       <recent name="D:\0Yasser\repos\tf_exp\h-or-s\happy" />
       <recent name="D:\0Yasser\repos\tf_exp\validation-h-or-s" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\0Yasser\repos\tf_exp\h-or-s\sad" />
+      <recent name="D:\0Yasser\repos\tf_exp\h-or-s\happy" />
       <recent name="D:\0Yasser\repos\tf_exp" />
     </key>
   </component>
@@ -309,7 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.cnn_dataset_from_disk">
+  <component name="RunManager" selected="Python.titanic_dnn">
     <configuration name="cnn_dataset_from_disk" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tf_exp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -373,27 +328,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mnist" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="tf_exp" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\0Yasser\repos\tf_exp\cnn_template.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="mnist_with_callback" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tf_exp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -415,20 +349,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="titanic_dnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tf_exp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/titanic_dnn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.mnist" />
       <item itemvalue="Python.mnist_with_callback" />
       <item itemvalue="Python.fashion_mnist_cnn" />
       <item itemvalue="Python.fashion_mnist_cnn_vs_dnn" />
       <item itemvalue="Python.cnn_dataset_from_disk" />
+      <item itemvalue="Python.titanic_dnn" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.titanic_dnn" />
         <item itemvalue="Python.cnn_dataset_from_disk" />
         <item itemvalue="Python.fashion_mnist_cnn_vs_dnn" />
         <item itemvalue="Python.fashion_mnist_cnn" />
         <item itemvalue="Python.mnist_with_callback" />
-        <item itemvalue="Python.mnist" />
       </list>
     </recent_temporary>
   </component>
@@ -531,20 +486,27 @@
       <option name="project" value="LOCAL" />
       <updated>1601661853381</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Experiment - 5">
+      <created>1601723197105</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1601723197105</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18836749" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18836749" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40709218" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.28936172" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5092199" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38865247" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -568,7 +530,8 @@
     <MESSAGE value="Update to ReadME" />
     <MESSAGE value="Experiment 4" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="Experiment - 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Experiment - 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -598,33 +561,74 @@
           <line>35</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/titanic_dnn.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/titanic_dnn.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/titanic_dnn.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
-        <expression-string>history.history['accuracy']</expression-string>
+        <expression-string>predictions = predictions.reshape((418,))
+pd.DataFrame({'PassengerId': ids, 'Survived': predictions})</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>history.history</expression-string>
+        <expression-string>predictions = predictions.reshape((418,))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>history</expression-string>
+        <expression-string>predictions.reshape((418,))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>logs</expression-string>
+        <expression-string>predictions.shape</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>y_train</expression-string>
+        <expression-string>pd.DataFrame({'Survived': predictions})</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ids</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>predictions</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pd.DataFrame({'PassengerId': predictions})</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pd.DataFrame({'PassengerId': ids})</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>type(predictions)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -682,67 +686,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/minst_.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="64" column="17" lean-forward="true" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fashion_mnist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="140" selection-start-line="140" selection-end-line="140" />
-          <folding>
-            <element signature="e#187#205#0" expanded="true" />
-            <element signature="e#400#641#0" />
-            <element signature="e#3602#4185#0" />
-            <element signature="e#4267#4475#0" />
-            <element signature="e#5976#6077#0" />
-            <element signature="e#6132#6280#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tensorflow/python/keras/callbacks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="409" selection-start-line="409" selection-end-line="409" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tensorflow/python/keras/engine/training.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="1091" selection-start-line="1091" selection-end-line="1091" />
+    <entry file="file://$PROJECT_DIR$/minst_.py" />
+    <entry file="file://$PROJECT_DIR$/fashion_mnist.py" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1825">
+            <caret line="73" column="34" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/one_node_nn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/predicting_house_price.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding>
-            <element signature="e#293#321#0" expanded="true" />
-            <marker date="1601587682329" expanded="true" signature="337:362" ph="..." />
-          </folding>
+        <state relative-caret-position="350">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -753,56 +712,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cnn_template.py">
+    <entry file="file://$PROJECT_DIR$/../../DeepLearning.ai/TensorFlow Developer/1-Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning/W_4/course_1_part_8_lesson_4_notebook.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-          <folding>
-            <element signature="e#2422#2440#0" expanded="true" />
-            <element signature="e#4198#4367#0" />
-            <element signature="e#716#1116#0" />
-            <element signature="e#2492#3524#0" />
-            <element signature="e#3220#3802#0" />
-            <element signature="e#3944#4130#0" />
-            <element signature="e#8926#9167#0" />
-          </folding>
+        <state relative-caret-position="4225">
+          <caret line="170" column="19" selection-start-line="170" selection-start-column="19" selection-end-line="170" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mnist_with_callback.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="1100">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tensorflow/python/keras/callbacks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9125">
+          <caret line="409" selection-start-line="409" selection-end-line="409" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tensorflow/python/keras/engine/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25625">
+          <caret line="1091" selection-start-line="1091" selection-end-line="1091" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_and_test2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titanic_dnn.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predicting_house_price.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <marker date="1601652896824" expanded="true" signature="483:1819" ph="..." />
+            <element signature="e#266#294#0" expanded="true" />
+            <marker date="1601587682329" expanded="true" signature="337:362" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../DeepLearning.ai/TensorFlow Developer/1-Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning/W_4/course_1_part_8_lesson_4_notebook.py">
+    <entry file="file://$PROJECT_DIR$/cnn_template.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="170" column="19" selection-start-line="170" selection-start-column="19" selection-end-line="170" selection-end-column="19" />
+        <state relative-caret-position="114">
+          <caret line="137" column="39" lean-forward="true" selection-start-line="137" selection-start-column="39" selection-end-line="137" selection-end-column="39" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/submission.csv">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/cnn_dataset_from_disk.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="71" lean-forward="true" selection-end-line="9" selection-end-column="71" />
-          <folding>
-            <element signature="e#355#378#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="50">
+          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="229">
-            <caret line="73" selection-start-line="73" selection-end-line="73" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/titanic_dnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+          <folding>
+            <element signature="e#563#581#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
