@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b25cfcd5-a3cf-4a88-becd-114f873cbc8d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/titanic_dnn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,17 +26,17 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="2" />
-          <entry key="gitignore" value="1" />
+          <entry key="gitignore" value="2" />
           <entry key="ipynb" value="1" />
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
           <entry key="py" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="1" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="Python" value="25" />
         </counts>
       </usages-collector>
@@ -45,16 +44,16 @@
         <counts>
           <entry key="Python Console" value="50" />
           <entry key="dummy" value="70" />
-          <entry key="gitignore" value="22" />
-          <entry key="md" value="2496" />
+          <entry key="gitignore" value="42" />
+          <entry key="md" value="2516" />
           <entry key="py" value="17954" />
-          <entry key="txt" value="149" />
+          <entry key="txt" value="175" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="2496" />
-          <entry key="PLAIN_TEXT" value="241" />
+          <entry key="Markdown" value="2516" />
+          <entry key="PLAIN_TEXT" value="287" />
           <entry key="Python" value="18004" />
         </counts>
       </usages-collector>
@@ -62,6 +61,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="171">
+                <caret line="78" column="249" lean-forward="true" selection-start-line="78" selection-start-column="249" selection-end-line="78" selection-end-column="249" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/predicting_house_price.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,14 +85,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/titanic_dnn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+            <state relative-caret-position="175">
+              <caret line="7" lean-forward="true" selection-start-line="1" selection-end-line="7" />
               <folding>
                 <element signature="e#563#581#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="131" selection-start-line="131" selection-end-line="131" />
             </state>
           </provider>
         </entry>
@@ -96,15 +116,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
               <caret line="137" column="39" lean-forward="true" selection-start-line="137" selection-start-column="39" selection-end-line="137" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fashion_mnist_cnn_vs_dnn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -177,7 +188,6 @@
       <list>
         <option value="$PROJECT_DIR$/../../DeepLearning/Course_4/W_1/Convolution_model_Application_v1a.py" />
         <option value="$PROJECT_DIR$/minst_.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/minst.py" />
         <option value="$PROJECT_DIR$/fashion_mnist.py" />
         <option value="$PROJECT_DIR$/one_node_nn.py" />
@@ -189,9 +199,10 @@
         <option value="$PROJECT_DIR$/fashion_mnist_cnn_vs_dnn.py" />
         <option value="$PROJECT_DIR$/cnn_template.py" />
         <option value="$PROJECT_DIR$/cnn_dataset_from_disk.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/titanic_dnn.ipynb" />
         <option value="$PROJECT_DIR$/titanic_dnn.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -493,19 +504,26 @@
       <option name="project" value="LOCAL" />
       <updated>1601723197105</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Experiment - 6&#10;DNN for Titanic">
+      <created>1601855360907</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1601855360907</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18836749" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18836749" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5092199" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5092199" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38865247" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -531,7 +549,8 @@
     <MESSAGE value="Experiment 4" />
     <MESSAGE value="." />
     <MESSAGE value="Experiment - 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Experiment - 5" />
+    <MESSAGE value="Experiment - 6&#10;DNN for Titanic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Experiment - 6&#10;DNN for Titanic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -672,13 +691,6 @@ pd.DataFrame({'PassengerId': ids, 'Survived': predictions})</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="131" column="8" selection-start-line="131" selection-start-column="8" selection-end-line="131" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tensorflow/python/keras/engine/input_spec.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="499">
@@ -688,16 +700,6 @@ pd.DataFrame({'PassengerId': ids, 'Survived': predictions})</expression-string>
     </entry>
     <entry file="file://$PROJECT_DIR$/minst_.py" />
     <entry file="file://$PROJECT_DIR$/fashion_mnist.py" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1825">
-            <caret line="73" column="34" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/one_node_nn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -788,13 +790,30 @@ pd.DataFrame({'PassengerId': ids, 'Survived': predictions})</expression-string>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/titanic_dnn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+        <state relative-caret-position="175">
+          <caret line="7" lean-forward="true" selection-start-line="1" selection-end-line="7" />
           <folding>
             <element signature="e#563#581#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="171">
+            <caret line="78" column="249" lean-forward="true" selection-start-line="78" selection-start-column="249" selection-end-line="78" selection-end-column="249" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -72,3 +72,8 @@ Dataset is save to h-or-s folder on the disk. this folder contains two sub-folde
 There is also a separate folder for validation images '/validation-h-or-s' which again contains two subfolders '/validation-h-or-s/happy' '/validation-h-or-s/sad' each contains 10 images.
 The code reads the images from the disk instead of loading them from Keras as we did before with MNIST and Fashion-MNIST. 
 labels are inferred from folders' names
+
+### Experiment # 6
+This is my first submission to Kaggle. I am going first to lightly explore the training dataset, then following that I am going to clean it, interpolate missing values, and convert categorical
+values into numerical, and then train a DNN using Keras.
+I am assuming that training set and test set are coming have the same distribution therefore, once I am settled on the best model from working on training I am applying the same data pre-processing steps to test data set before passing to the model.
