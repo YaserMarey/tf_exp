@@ -1,7 +1,7 @@
-import tensorflow as tf
-# Exp - 5
+# Exp - 4
 # Comparing CNN and DNN applied to Fahsion-MNIST
 
+import tensorflow as tf
 results = []
 
 # First CNN

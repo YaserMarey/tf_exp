@@ -2,9 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b25cfcd5-a3cf-4a88-becd-114f873cbc8d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/exp_7_kaggle_cats_vs_dogs_dnn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_dataset_from_disk.py" beforeDir="false" afterPath="$PROJECT_DIR$/exp_5_cnn_dataset_from_disk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/exp_2_cnn_template.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_mnist_cnn_vs_dnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/exp_4_fashion_mnist_cnn_vs_dnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/h-or-s/happy/happy1-09.png" beforeDir="false" afterPath="$PROJECT_DIR$/h-or-s/training/happy/happy1-09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/h-or-s/happy/happy2-09.png" beforeDir="false" afterPath="$PROJECT_DIR$/h-or-s/training/happy/happy2-09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/h-or-s/sad/sad1-09.png" beforeDir="false" afterPath="$PROJECT_DIR$/h-or-s/training/sad/sad1-09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/h-or-s/sad/sad2-09.png" beforeDir="false" afterPath="$PROJECT_DIR$/h-or-s/training/sad/sad2-09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnist_with_callback.py" beforeDir="false" afterPath="$PROJECT_DIR$/exp_3_mnist_with_callback.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/one_node_nn.py" beforeDir="false" afterPath="$PROJECT_DIR$/exp_0_one_node_nn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/predicting_house_price.py" beforeDir="false" afterPath="$PROJECT_DIR$/exp_1_one_node_nn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic_dnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/exp_6_kaggle_titanic_dnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation-h-or-s/happy/happy1-00.png" beforeDir="false" afterPath="$PROJECT_DIR$/h-or-s/validation/happy/happy1-00.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation-h-or-s/happy/happy1-03.png" beforeDir="false" afterPath="$PROJECT_DIR$/h-or-s/validation/happy/happy1-03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation-h-or-s/happy/happy1-06.png" beforeDir="false" afterPath="$PROJECT_DIR$/h-or-s/validation/happy/happy1-06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation-h-or-s/happy/happy1-13.png" beforeDir="false" afterPath="$PROJECT_DIR$/h-or-s/validation/happy/happy1-13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation-h-or-s/happy/happy1-16.png" beforeDir="false" afterPath="$PROJECT_DIR$/h-or-s/validation/happy/happy1-16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation-h-or-s/happy/happy2-03.png" beforeDir="false" afterPath="$PROJECT_DIR$/h-or-s/validation/happy/happy2-03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation-h-or-s/happy/happy2-06.png" beforeDir="false" afterPath="$PROJECT_DIR$/h-or-s/validation/happy/happy2-06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation-h-or-s/happy/happy2-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/h-or-s/validation/happy/happy2-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation-h-or-s/happy/happy2-15.png" beforeDir="false" afterPath="$PROJECT_DIR$/h-or-s/validation/happy/happy2-15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation-h-or-s/happy/happy2-18.png" beforeDir="false" afterPath="$PROJECT_DIR$/h-or-s/validation/happy/happy2-18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation-h-or-s/sad/sad1-00.png" beforeDir="false" afterPath="$PROJECT_DIR$/h-or-s/validation/sad/sad1-00.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation-h-or-s/sad/sad1-03.png" beforeDir="false" afterPath="$PROJECT_DIR$/h-or-s/validation/sad/sad1-03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation-h-or-s/sad/sad1-06.png" beforeDir="false" afterPath="$PROJECT_DIR$/h-or-s/validation/sad/sad1-06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation-h-or-s/sad/sad1-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/h-or-s/validation/sad/sad1-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation-h-or-s/sad/sad1-15.png" beforeDir="false" afterPath="$PROJECT_DIR$/h-or-s/validation/sad/sad1-15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation-h-or-s/sad/sad2-03.png" beforeDir="false" afterPath="$PROJECT_DIR$/h-or-s/validation/sad/sad2-03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation-h-or-s/sad/sad2-06.png" beforeDir="false" afterPath="$PROJECT_DIR$/h-or-s/validation/sad/sad2-06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation-h-or-s/sad/sad2-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/h-or-s/validation/sad/sad2-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation-h-or-s/sad/sad2-15.png" beforeDir="false" afterPath="$PROJECT_DIR$/h-or-s/validation/sad/sad2-15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation-h-or-s/sad/sad2-19.png" beforeDir="false" afterPath="$PROJECT_DIR$/h-or-s/validation/sad/sad2-19.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,133 +56,63 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="2" />
-          <entry key="gitignore" value="2" />
-          <entry key="ipynb" value="1" />
-          <entry key="md" value="2" />
-          <entry key="py" value="25" />
+          <entry key="csv" value="5" />
+          <entry key="gitignore" value="3" />
+          <entry key="ipynb" value="3" />
+          <entry key="jpg" value="9" />
+          <entry key="md" value="3" />
+          <entry key="py" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IPNB" value="1" />
-          <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="25" />
+          <entry key="IPNB" value="3" />
+          <entry key="Image" value="9" />
+          <entry key="Markdown" value="3" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Python" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="50" />
-          <entry key="dummy" value="70" />
-          <entry key="gitignore" value="42" />
+          <entry key="Python Console" value="312" />
+          <entry key="csv" value="139" />
+          <entry key="dummy" value="255" />
+          <entry key="gitignore" value="71" />
           <entry key="md" value="2516" />
-          <entry key="py" value="17954" />
-          <entry key="txt" value="175" />
+          <entry key="py" value="26884" />
+          <entry key="txt" value="190" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="2516" />
-          <entry key="PLAIN_TEXT" value="287" />
-          <entry key="Python" value="18004" />
+          <entry key="PLAIN_TEXT" value="655" />
+          <entry key="Python" value="27196" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exp_7_kaggle_cats_vs_dogs_dnn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="199" column="30" lean-forward="true" selection-start-line="199" selection-start-column="30" selection-end-line="199" selection-end-column="30" />
+              <folding>
+                <element signature="e#21#30#0" expanded="true" />
+                <element signature="e#405#623#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="171">
-                <caret line="78" column="249" lean-forward="true" selection-start-line="78" selection-start-column="249" selection-end-line="78" selection-end-column="249" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/predicting_house_price.py">
+        <entry file="file://$PROJECT_DIR$/exp_8_learning_transfer_inception3_cats_dogs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#266#294#0" expanded="true" />
-                <marker date="1601587682329" expanded="true" signature="337:362" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/titanic_dnn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" lean-forward="true" selection-start-line="1" selection-end-line="7" />
-              <folding>
-                <element signature="e#563#581#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="131" selection-start-line="131" selection-end-line="131" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/submission.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cnn_template.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="137" column="39" lean-forward="true" selection-start-line="137" selection-start-column="39" selection-end-line="137" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cnn_dataset_from_disk.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mnist_with_callback.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tensorflow/python/keras/callbacks.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9125">
-              <caret line="409" selection-start-line="409" selection-end-line="409" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tensorflow/python/keras/engine/training.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25625">
-              <caret line="1091" selection-start-line="1091" selection-end-line="1091" />
+            <state relative-caret-position="282">
+              <caret line="117" column="10" lean-forward="true" selection-start-line="117" selection-start-column="10" selection-end-line="117" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -178,6 +139,17 @@
       <find>maxpooling</find>
       <find>fit</find>
       <find>mom</find>
+      <find>drop</find>
+      <find>batch_size</find>
+      <find>SPlit</find>
+      <find>callback</find>
+      <find>verbose</find>
+      <find>optimi</find>
+      <find>verbo</find>
+      <find>TOTAL_TRAINING</find>
+      <find>epochs</find>
+      <find>train_generator</find>
+      <find>evaluation_generator</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -196,19 +168,28 @@
         <option value="$PROJECT_DIR$/mnist_with_callback.py" />
         <option value="$PROJECT_DIR$/cnn_template_applied_to_two_mnist.py" />
         <option value="$PROJECT_DIR$/fashion_mnist_cnn.py" />
-        <option value="$PROJECT_DIR$/fashion_mnist_cnn_vs_dnn.py" />
         <option value="$PROJECT_DIR$/cnn_template.py" />
-        <option value="$PROJECT_DIR$/cnn_dataset_from_disk.py" />
         <option value="$PROJECT_DIR$/titanic_dnn.ipynb" />
-        <option value="$PROJECT_DIR$/titanic_dnn.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/venv/cats_vs_dogs_cnn.py" />
+        <option value="$PROJECT_DIR$/cats_vs_dogs.py" />
+        <option value="$PROJECT_DIR$/titanic_dnn.py" />
+        <option value="$PROJECT_DIR$/../../DeepLearning.ai/TensorFlow Developer/2-Convolutional Neural Networks in TensorFlow/W_1/utf-8''Exercise_1_Cats_vs_Dogs_Question-FINAL.ipynb" />
+        <option value="$PROJECT_DIR$/cnn_dataset_from_disk.py" />
+        <option value="$PROJECT_DIR$/kaggle_cats_vs_dogs_dnn.py" />
+        <option value="$PROJECT_DIR$/course_2_part_6_lesson_3_notebook.py" />
+        <option value="$PROJECT_DIR$/learning_transfer_inception3_cats_dogs.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/fashion_mnist_cnn_vs_dnn.py" />
+        <option value="$PROJECT_DIR$/submission.csv" />
+        <option value="$PROJECT_DIR$/exp_7_kaggle_cats_vs_dogs_dnn.py" />
+        <option value="$PROJECT_DIR$/exp_8_learning_transfer_inception3_cats_dogs.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
+    <option name="x" value="118" />
+    <option name="y" value="36" />
     <option name="width" value="979" />
     <option name="height" value="1049" />
   </component>
@@ -229,16 +210,21 @@
             <path>
               <item name="tf_exp" type="b2602c69:ProjectViewProjectNode" />
               <item name="tf_exp" type="462c0819:PsiDirectoryNode" />
-              <item name="h-or-s" type="462c0819:PsiDirectoryNode" />
+              <item name="cats-v-dogs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tf_exp" type="b2602c69:ProjectViewProjectNode" />
               <item name="tf_exp" type="462c0819:PsiDirectoryNode" />
-              <item name="validation-h-or-s" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tf_exp" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="tf_exp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (tf_exp) (1) &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
@@ -247,20 +233,23 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GT/7476/ML4T_2017Spring/mc1p1_assess_portfolio" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\0Yasser\repos\tf_exp\cats-v-dogs\test1\test1" />
+      <recent name="D:\0Yasser\repos\tf_exp\cats-v-dogs\test1\cats" />
+      <recent name="D:\0Yasser\repos\tf_exp\cats-v-dogs\test1" />
       <recent name="D:\0Yasser\repos\tf_exp" />
       <recent name="D:\0Yasser\repos\tf_exp\h-or-s\sad" />
-      <recent name="D:\0Yasser\repos\tf_exp\h-or-s\happy" />
-      <recent name="D:\0Yasser\repos\tf_exp\validation-h-or-s" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\0Yasser\repos\tf_exp\images" />
+      <recent name="D:\0Yasser\repos\tf_exp\h-or-s" />
+      <recent name="D:\0Yasser\repos\tf_exp\h-or-s\training" />
       <recent name="D:\0Yasser\repos\tf_exp\h-or-s\sad" />
       <recent name="D:\0Yasser\repos\tf_exp\h-or-s\happy" />
-      <recent name="D:\0Yasser\repos\tf_exp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -275,7 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.titanic_dnn">
+  <component name="RunManager" selected="Python.exp_7_kaggle_cats_vs_dogs_dnn">
     <configuration name="cnn_dataset_from_disk" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tf_exp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -288,7 +277,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cnn_dataset_from_disk.py" />
+      <option name="SCRIPT_NAME" value="D:\0Yasser\repos\tf_exp\exp_5_cnn_dataset_from_disk.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -297,7 +286,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fashion_mnist_cnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="exp_7_kaggle_cats_vs_dogs_dnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tf_exp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -309,7 +298,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\0Yasser\repos\tf_exp\fashion_mnist_cnn_vs_dnn.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exp_7_kaggle_cats_vs_dogs_dnn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -330,7 +319,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fashion_mnist_cnn_vs_dnn.py" />
+      <option name="SCRIPT_NAME" value="D:\0Yasser\repos\tf_exp\exp_4_fashion_mnist_cnn_vs_dnn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -339,7 +328,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mnist_with_callback" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="kaggle_cats_vs_dogs_dnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tf_exp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -351,7 +340,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mnist_with_callback.py" />
+      <option name="SCRIPT_NAME" value="D:\0Yasser\repos\tf_exp\exp_7_kaggle_cats_vs_dogs_dnn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -372,7 +361,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/titanic_dnn.py" />
+      <option name="SCRIPT_NAME" value="D:\0Yasser\repos\tf_exp\exp_6_kaggle_titanic_dnn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -382,19 +371,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.mnist_with_callback" />
-      <item itemvalue="Python.fashion_mnist_cnn" />
       <item itemvalue="Python.fashion_mnist_cnn_vs_dnn" />
       <item itemvalue="Python.cnn_dataset_from_disk" />
       <item itemvalue="Python.titanic_dnn" />
+      <item itemvalue="Python.kaggle_cats_vs_dogs_dnn" />
+      <item itemvalue="Python.exp_7_kaggle_cats_vs_dogs_dnn" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.titanic_dnn" />
+        <item itemvalue="Python.exp_7_kaggle_cats_vs_dogs_dnn" />
+        <item itemvalue="Python.kaggle_cats_vs_dogs_dnn" />
         <item itemvalue="Python.cnn_dataset_from_disk" />
+        <item itemvalue="Python.titanic_dnn" />
         <item itemvalue="Python.fashion_mnist_cnn_vs_dnn" />
-        <item itemvalue="Python.fashion_mnist_cnn" />
-        <item itemvalue="Python.mnist_with_callback" />
       </list>
     </recent_temporary>
   </component>
@@ -511,20 +500,27 @@
       <option name="project" value="LOCAL" />
       <updated>1601855360907</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary=".">
+      <created>1601857047579</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1601857047579</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18836749" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23198943" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5092199" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38865247" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4609929" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4326241" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -536,6 +532,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18836749" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2680851" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38865247" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.35602838" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32907802" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -547,53 +562,83 @@
     <MESSAGE value="Fixing stop flag" />
     <MESSAGE value="Update to ReadME" />
     <MESSAGE value="Experiment 4" />
-    <MESSAGE value="." />
     <MESSAGE value="Experiment - 5" />
     <MESSAGE value="Experiment - 6&#10;DNN for Titanic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Experiment - 6&#10;DNN for Titanic" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/cnn_template.py</url>
+          <url>file://$PROJECT_DIR$/exp_2_cnn_template.py</url>
           <line>6</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/cnn_template.py</url>
+          <url>file://$PROJECT_DIR$/exp_2_cnn_template.py</url>
           <line>25</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/cnn_template.py</url>
+          <url>file://$PROJECT_DIR$/exp_2_cnn_template.py</url>
           <line>26</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/mnist_with_callback.py</url>
+          <url>file://$PROJECT_DIR$/exp_3_mnist_with_callback.py</url>
           <line>7</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/mnist_with_callback.py</url>
+          <url>file://$PROJECT_DIR$/exp_3_mnist_with_callback.py</url>
           <line>35</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/titanic_dnn.py</url>
-          <line>71</line>
+          <url>file://$PROJECT_DIR$/exp_6_kaggle_titanic_dnn.py</url>
+          <line>110</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/titanic_dnn.py</url>
-          <line>88</line>
+          <url>file://$PROJECT_DIR$/exp_6_kaggle_titanic_dnn.py</url>
+          <line>127</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/titanic_dnn.py</url>
-          <line>56</line>
+          <url>file://$PROJECT_DIR$/exp_6_kaggle_titanic_dnn.py</url>
+          <line>65</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exp_7_kaggle_cats_vs_dogs_dnn.py</url>
+          <line>286</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exp_7_kaggle_cats_vs_dogs_dnn.py</url>
+          <line>290</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exp_7_kaggle_cats_vs_dogs_dnn.py</url>
+          <line>291</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exp_7_kaggle_cats_vs_dogs_dnn.py</url>
+          <line>293</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exp_7_kaggle_cats_vs_dogs_dnn.py</url>
+          <line>294</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exp_7_kaggle_cats_vs_dogs_dnn.py</url>
+          <line>121</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -601,53 +646,63 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
-        <expression-string>predictions = predictions.reshape((418,))
-pd.DataFrame({'PassengerId': ids, 'Survived': predictions})</expression-string>
+        <expression-string>for x, y in test_generator:
+    predictions = model.predict(x)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>predictions = predictions.reshape((418,))</expression-string>
+        <expression-string>for x, y in test_generator:
+    print(y)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>predictions.reshape((418,))</expression-string>
+        <expression-string>test_generator</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>predictions.shape</expression-string>
+        <expression-string>test_generator:</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>pd.DataFrame({'Survived': predictions})</expression-string>
+        <expression-string>for x,y in test_generator:
+    print(x)
+    print(y)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>ids</expression-string>
+        <expression-string>evaluations = model.evaluate(evaluation_generator)
+for i in range(len(model.metrics_names)):
+    if 'accuracy' in model.metrics_names[i]: 
+        print('Accuracy is {0}'.format(evaluations[i]))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>predictions</expression-string>
+        <expression-string>evaluations = model.evaluate(evaluation_generator)
+for i in range(len(model.metrics_names)):
+    print(model.metrics_names[i],evaluations[i])</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>pd.DataFrame({'PassengerId': predictions})</expression-string>
+        <expression-string>model.evaluate(evaluation_generator)
+print(model.metrics_names)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>pd.DataFrame({'PassengerId': ids})</expression-string>
+        <expression-string>model.evaluate(evaluation_generator)
+model.metrics_names</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>type(predictions)</expression-string>
+        <expression-string>model.evaluate(evaluation_generator)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -700,20 +755,6 @@ pd.DataFrame({'PassengerId': ids, 'Survived': predictions})</expression-string>
     </entry>
     <entry file="file://$PROJECT_DIR$/minst_.py" />
     <entry file="file://$PROJECT_DIR$/fashion_mnist.py" />
-    <entry file="file://$PROJECT_DIR$/one_node_nn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fashion_mnist_cnn_vs_dnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../DeepLearning.ai/TensorFlow Developer/1-Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning/W_4/course_1_part_8_lesson_4_notebook.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4225">
@@ -721,24 +762,10 @@ pd.DataFrame({'PassengerId': ids, 'Survived': predictions})</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mnist_with_callback.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tensorflow/python/keras/callbacks.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9125">
           <caret line="409" selection-start-line="409" selection-end-line="409" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tensorflow/python/keras/engine/training.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25625">
-          <caret line="1091" selection-start-line="1091" selection-end-line="1091" />
         </state>
       </provider>
     </entry>
@@ -756,23 +783,6 @@ pd.DataFrame({'PassengerId': ids, 'Survived': predictions})</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/predicting_house_price.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#266#294#0" expanded="true" />
-            <marker date="1601587682329" expanded="true" signature="337:362" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cnn_template.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="137" column="39" lean-forward="true" selection-start-line="137" selection-start-column="39" selection-end-line="137" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -780,29 +790,118 @@ pd.DataFrame({'PassengerId': ids, 'Survived': predictions})</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/submission.csv">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tensorflow/python/keras/optimizer_v2/adam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/cats_vs_dogs_cnn.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/cnn_dataset_from_disk.py">
+    <entry file="file://$PROJECT_DIR$/../../DeepLearning.ai/DeepLearning/Course_1/W_4/Building_your_Deep_Neural_Network_Step_by_Step_v8a.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../DeepLearning.ai/DeepLearning/Course_1/W_4/Building_your_Deep_Neural_Network_Step_by_Step_v8a.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="149">
+          <caret line="318" column="9" lean-forward="true" selection-start-line="318" selection-start-column="9" selection-end-line="318" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../DeepLearning.ai/DeepLearning/Course_1/W_4/Deep+Neural+Network+-+Application+v8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="347" selection-start-line="347" selection-end-line="347" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../DeepLearning.ai/TensorFlow Developer/2-Convolutional Neural Networks in TensorFlow/W_3/utf-8''Exercise_3_Horses_vs_humans_using_Transfer_Learning_Question-FINAL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="261" selection-start-line="261" selection-end-line="261" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../DeepLearning.ai/TensorFlow Developer/2-Convolutional Neural Networks in TensorFlow/W_2/course_2_part_4_lesson_2_notebook_(cats_v_dogs_augmentation).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="370" column="12" selection-start-line="370" selection-start-column="12" selection-end-line="370" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../DeepLearning.ai/TensorFlow Developer/2-Convolutional Neural Networks in TensorFlow/W_2/course_2_part_6_lesson_3_notebook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../DeepLearning.ai/TensorFlow Developer/2-Convolutional Neural Networks in TensorFlow/W_3/course_2_part_6_lesson_3_notebook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="96" column="45" selection-start-line="96" selection-start-column="45" selection-end-line="96" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../DeepLearning.ai/TensorFlow Developer/2-Convolutional Neural Networks in TensorFlow/W_1/utf-8''Exercise_1_Cats_vs_Dogs_Question-FINAL.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        <state relative-caret-position="261">
+          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/titanic_dnn.py">
+    <entry file="file://$PROJECT_DIR$/transfer_learning_from_incpetion_network.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" lean-forward="true" selection-start-line="1" selection-end-line="7" />
+        <state relative-caret-position="150">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exp_0_one_node_nn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exp_1_one_node_nn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
-            <element signature="e#563#581#0" expanded="true" />
+            <element signature="e#266#294#0" expanded="true" />
+            <marker date="1601587682329" expanded="true" signature="337:362" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exp_2_cnn_template.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#3208#4467#0" />
+            <element signature="e#4570#4671#0" />
+            <element signature="e#4727#4896#0" />
+            <element signature="e#4969#5375#0" />
+            <element signature="e#5434#5912#0" />
+            <element signature="e#5954#6799#0" />
+            <element signature="e#6888#7933#0" />
+            <element signature="e#8000#8583#0" />
+            <element signature="e#8665#8873#0" />
+            <element signature="e#8924#9165#0" />
           </folding>
         </state>
       </provider>
@@ -810,10 +909,108 @@ pd.DataFrame({'PassengerId': ids, 'Survived': predictions})</expression-string>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="171">
-            <caret line="78" column="249" lean-forward="true" selection-start-line="78" selection-start-column="249" selection-end-line="78" selection-end-column="249" />
+          <first_editor relative-caret-position="121">
+            <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exp_4_fashion_mnist_cnn_vs_dnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exp_6_kaggle_titanic_dnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exp_5_cnn_dataset_from_disk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="e#655#678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tensorflow/python/keras/preprocessing/image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="874" column="22" selection-start-line="874" selection-start-column="22" selection-end-line="874" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exp_3_mnist_with_callback.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-234">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cats-v-dogs/test1/10.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cats-v-dogs/test1/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cats-v-dogs/test1/3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cats-v-dogs/test1/5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cats-v-dogs/test1/6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cats-v-dogs/test1/7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cats-v-dogs/test1/9.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://D:/Users/yasse/Anaconda3/Lib/contextlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tensorflow/python/keras/engine/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="1325" column="59" selection-start-line="1325" selection-start-column="40" selection-end-line="1325" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/submission.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exp_7_kaggle_cats_vs_dogs_dnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="199" column="30" lean-forward="true" selection-start-line="199" selection-start-column="30" selection-end-line="199" selection-end-column="30" />
+          <folding>
+            <element signature="e#21#30#0" expanded="true" />
+            <element signature="e#405#623#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exp_8_learning_transfer_inception3_cats_dogs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="117" column="10" lean-forward="true" selection-start-line="117" selection-start-column="10" selection-end-line="117" selection-end-column="10" />
         </state>
       </provider>
     </entry>

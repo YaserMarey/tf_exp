@@ -130,3 +130,5 @@ dmypy.json
 
 minst.py
 submission.csv
+cats-v-dogs/
+*.h5

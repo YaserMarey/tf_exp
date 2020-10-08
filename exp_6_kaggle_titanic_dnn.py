@@ -5,6 +5,7 @@
 # I am assuming that training set and test set are coming have the same distribution therefore,
 # once I am settled on the best model from working on training I am applying the same data
 # pre-processing steps to test data set before passing to the model.
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import tensorflow as tf
@@ -41,15 +42,23 @@ x_train, x_test, y_train, y_test = train_test_split(X, Y, test_size=0.2)
 
 # construct model
 model = tf.keras.Sequential([
-    tf.keras.layers.Dense(256, input_shape=(7,), activation='relu'),
+    tf.keras.layers.Dense(128, input_shape=(7,), activation='relu'),
     tf.keras.layers.Dropout(0.2),
-    tf.keras.layers.Dense(256, activation='relu'),
+
+    tf.keras.layers.Dense(128, activation='relu'),
     tf.keras.layers.Dropout(0.2),
+
+    tf.keras.layers.Dense(128, activation='relu'),
+    tf.keras.layers.Dropout(0.2),
+
+    tf.keras.layers.Dense(128, activation='relu'),
+    tf.keras.layers.Dropout(0.2),
+
     tf.keras.layers.Dense(1, activation='sigmoid')
 ])
 
 # 
-model.compile(optimizer=tf.keras.optimizers.Adam(),
+model.compile(optimizer=tf.keras.optimizers.RMSprop(learning_rate=0.001),
               loss='binary_crossentropy',
               metrics=['accuracy'])
 
@@ -59,15 +68,45 @@ y_train = np.array(y_train).astype('int32').reshape(-1, 1)
 #
 print('\n Training .... ')
 hist = model.fit(x_train, y_train,
-                 batch_size=64,
-                 epochs=200,
+                 batch_size=256,
+                 epochs=500,
                  verbose=0,
-                 validation_split=0.1)
+                 validation_split=0.2)
 
-print('\n accuracy after last training epoch | {0} |'.format(hist.history['accuracy'][-1]))
+print('\n accuracy after last training epoch | {0} |'.format(hist.history['val_accuracy'][-1]))
 print('\n Evaluation .... ')
 results = model.evaluate(x_test, y_test, verbose=0)
 print('\n accuracy of evaluation on test data non seen before | {0} |'.format(results[1]))
+
+# -----------------------------------------------------------
+# Retrieve a list of list results on training and test data
+# sets for each training epoch
+# -----------------------------------------------------------
+acc = hist.history['accuracy']
+val_acc = hist.history['val_accuracy']
+loss = hist.history['loss']
+val_loss = hist.history['val_loss']
+
+epochs = range(len(acc))  # Get number of epochs
+
+# ------------------------------------------------
+# Plot training and validation accuracy per epoch
+# ------------------------------------------------
+plt.plot(epochs, acc)
+plt.plot(epochs, val_acc)
+plt.title('Training and validation accuracy')
+plt.figure()
+
+# ------------------------------------------------
+# Plot training and validation loss per epoch
+# ------------------------------------------------
+plt.plot(epochs, loss)
+plt.plot(epochs, val_loss)
+plt.title('Training and validation loss')
+
+plt.show()
+
+# Prediction
 
 test_data = pd.read_csv('test.csv')
 test_data.drop('Cabin', axis=1, inplace=True)
