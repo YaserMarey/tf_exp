@@ -77,3 +77,24 @@ labels are inferred from folders' names
 This is my first submission to Kaggle. I am going first to lightly explore the training dataset, then following that I am going to clean it, interpolate missing values, and convert categorical
 values into numerical, and then train a DNN using Keras.
 I am assuming that training set and test set are coming have the same distribution therefore, once I am settled on the best model from working on training I am applying the same data pre-processing steps to test data set before passing to the model.
+
+# Experiment - 7
+CNN applied to Kaggle Cats vs Dogs dataset. Trying to optimize the CNN Architecture by clearly monitoring overfitting 
+levles of the network.
+
+# Experiment - 8
+Pre-trained NN models offer a great opportunity to build on other researchers work.
+Inception which is a Deep Learning Convolutional Architecture presented by 
+[Szegedy et al 2014](http://https://arxiv.org/abs/1409.4842) is an important milestone in the development of CNN 
+classifiers.
+
+In this Notebook I am applying a pre-trained model of Inception version 3 on the welknown Kaggle dataset of Cats vs Dogs. 
+Inception V3 was trained using a dataset of 1,000 classes, including Cats and Dogs, from the original ImageNet dataset 
+which was trained with over 1 million training images, the Tensorflow version has 1,001 classes which is due to 
+an additional "background' class not used in the original ImageNet.
+
+# Experiment - 9
+DNN applied to Kaggle Cats vs Dogs dataset, images are read using ImageDataGenerator,and I manipulated the data set 
+so that Cross Validation is used in training.
+Image augmentation is applied as well. I am also using the final NN architecture I concluded Exp 7. 
+

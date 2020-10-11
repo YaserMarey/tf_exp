@@ -139,7 +139,6 @@ def construct_and_compile_model():
 
     return model
 
-
 def train_and_cross_validate(model, x_data, y_data, n_folds, epochs, batch_size):
     scores, histories = [], []
     # prepare cross validation
