@@ -133,3 +133,5 @@ submission.csv
 cats-v-dogs/
 *.h5
 h-or-s/
+input/
+*.csv

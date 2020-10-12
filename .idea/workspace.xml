@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b25cfcd5-a3cf-4a88-becd-114f873cbc8d" name="Default Changelist" comment="Updates and new experiments 8 and 9">
-      <change afterPath="$PROJECT_DIR$/exp_8_transfer-learning-inception-v3-on-cats-vs-dogs.ipynb" afterDir="false" />
+    <list default="true" id="b25cfcd5-a3cf-4a88-becd-114f873cbc8d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/introduction-to-cnn-keras-0-997-top-6.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/tf_exp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tf_exp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exp_2_cnn_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/exp_2_cnn_template.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exp_7_kaggle_cats_vs_dogs_cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/exp_7_kaggle_cats_vs_dogs_cnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exp_3_mnist_with_callback.py" beforeDir="false" afterPath="$PROJECT_DIR$/exp_3_mnist_with_callback.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exp_8_transfer-learning-inception-v3-on-cats-vs-dogs.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/exp_8_transfer-learning-inception-v3-on-cats-vs-dogs.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,19 +31,19 @@
           <entry key="README" value="1" />
           <entry key="csv" value="6" />
           <entry key="gitignore" value="4" />
-          <entry key="ipynb" value="5" />
+          <entry key="ipynb" value="6" />
           <entry key="jpg" value="14" />
           <entry key="md" value="4" />
-          <entry key="py" value="68" />
+          <entry key="py" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IPNB" value="5" />
+          <entry key="IPNB" value="6" />
           <entry key="Image" value="14" />
           <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Python" value="68" />
+          <entry key="Python" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -52,17 +51,17 @@
           <entry key="Python Console" value="350" />
           <entry key="csv" value="139" />
           <entry key="dummy" value="323" />
-          <entry key="gitignore" value="79" />
+          <entry key="gitignore" value="97" />
           <entry key="md" value="2768" />
-          <entry key="py" value="31515" />
-          <entry key="txt" value="246" />
+          <entry key="py" value="32273" />
+          <entry key="txt" value="249" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="2768" />
-          <entry key="PLAIN_TEXT" value="787" />
-          <entry key="Python" value="31865" />
+          <entry key="PLAIN_TEXT" value="808" />
+          <entry key="Python" value="32623" />
         </counts>
       </usages-collector>
     </session>
@@ -72,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exp_7_kaggle_cats_vs_dogs_cnn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" lean-forward="true" selection-end-line="2" />
+            <state relative-caret-position="235">
+              <caret line="22" selection-start-line="16" selection-end-line="22" />
               <folding>
                 <element signature="e#93#102#0" expanded="true" />
               </folding>
@@ -99,12 +98,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/introduction-to-cnn-keras-0-997-top-6.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="332">
-                <caret line="98" column="99" selection-start-line="98" selection-start-column="99" selection-end-line="98" selection-end-column="99" />
+                <caret line="98" selection-start-line="98" selection-end-line="98" />
               </first_editor>
               <second_editor />
             </state>
@@ -112,10 +120,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exp_3_mnist_with_callback.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+              <folding>
+                <element signature="e#367#390#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
+            <state relative-caret-position="268">
+              <caret line="136" column="5" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -124,7 +144,7 @@
         <entry file="file://$PROJECT_DIR$/exp_9_kaggle_cats_vs_dogs_cnn_k_fold_c_val.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="4" column="45" lean-forward="true" selection-end-line="4" selection-end-column="45" />
+              <caret line="4" column="45" selection-end-line="4" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -147,19 +167,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tensorflow/python/keras/preprocessing/image.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="195" column="4" selection-start-line="195" selection-start-column="4" selection-end-line="195" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exp_6_kaggle_titanic_dnn.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
-              <caret line="7" lean-forward="true" selection-start-line="1" selection-end-line="7" />
+              <caret line="7" selection-start-line="1" selection-end-line="7" />
               <folding>
                 <element signature="e#534#565#0" expanded="true" />
               </folding>
@@ -243,9 +254,10 @@
         <option value="$PROJECT_DIR$/exp_8_learning_transfer_inception3_cats_dogs.py" />
         <option value="$PROJECT_DIR$/exp_7_kaggle_cats_vs_dogs_cnn.py" />
         <option value="$USER_HOME$/Downloads/transfer-learning-inception-v3-on-cats-vs-dogs (1).ipynb" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/exp_2_cnn_template.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/exp_3_mnist_with_callback.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -257,7 +269,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -281,22 +293,6 @@
             </path>
             <path>
               <item name="tf_exp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tf_exp" type="462c0819:PsiDirectoryNode" />
-              <item name="cats-v-dogs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tf_exp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tf_exp" type="462c0819:PsiDirectoryNode" />
-              <item name="cats-v-dogs" type="462c0819:PsiDirectoryNode" />
-              <item name="tmp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tf_exp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tf_exp" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tf_exp" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -311,16 +307,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/introduction-to-cnn-keras-0-997-top-6.ipynb" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\0Yasser\repos\tf_exp\input\digit-recognizer" />
       <recent name="D:\0Yasser\repos\tf_exp" />
       <recent name="D:\0Yasser\repos\tf_exp\images" />
       <recent name="D:\0Yasser\repos\tf_exp\h-or-s" />
       <recent name="D:\0Yasser\repos\tf_exp\h-or-s\training" />
-      <recent name="D:\0Yasser\repos\tf_exp\h-or-s\sad" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\yasse\Downloads" />
@@ -342,7 +338,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.exp_7_kaggle_cats_vs_dogs_dnn">
+  <component name="RunManager" selected="Python.exp_3_mnist_with_callback">
     <configuration name="cnn_dataset_from_disk" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tf_exp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -364,6 +360,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="exp_3_mnist_with_callback" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tf_exp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exp_3_mnist_with_callback.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="exp_7_kaggle_cats_vs_dogs_dnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tf_exp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -377,27 +394,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="D:\0Yasser\repos\tf_exp\exp_7_kaggle_cats_vs_dogs_cnn.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="fashion_mnist_cnn_vs_dnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="tf_exp" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\0Yasser\repos\tf_exp\exp_4_fashion_mnist_cnn_vs_dnn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -449,19 +445,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.fashion_mnist_cnn_vs_dnn" />
       <item itemvalue="Python.cnn_dataset_from_disk" />
       <item itemvalue="Python.titanic_dnn" />
       <item itemvalue="Python.kaggle_cats_vs_dogs_dnn" />
       <item itemvalue="Python.exp_7_kaggle_cats_vs_dogs_dnn" />
+      <item itemvalue="Python.exp_3_mnist_with_callback" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.exp_3_mnist_with_callback" />
         <item itemvalue="Python.exp_7_kaggle_cats_vs_dogs_dnn" />
         <item itemvalue="Python.kaggle_cats_vs_dogs_dnn" />
         <item itemvalue="Python.cnn_dataset_from_disk" />
         <item itemvalue="Python.titanic_dnn" />
-        <item itemvalue="Python.fashion_mnist_cnn_vs_dnn" />
       </list>
     </recent_temporary>
   </component>
@@ -599,25 +595,32 @@
       <option name="project" value="LOCAL" />
       <updated>1602279337091</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Updates and new experiments 7, 8 and 9">
+      <created>1602446001594</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1602446001594</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28552544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22604097" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.004255319" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5134752" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4326241" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.31631204" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.17588653" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -640,7 +643,8 @@
     <MESSAGE value="." />
     <MESSAGE value="Updates and new experiments 7 and 8" />
     <MESSAGE value="Updates and new experiments 8 and 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates and new experiments 8 and 9" />
+    <MESSAGE value="Updates and new experiments 7, 8 and 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates and new experiments 7, 8 and 9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -662,12 +666,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/exp_3_mnist_with_callback.py</url>
-          <line>7</line>
+          <line>11</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/exp_3_mnist_with_callback.py</url>
-          <line>35</line>
+          <line>52</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -785,13 +789,6 @@ for i in range(len(model.metrics_names)):
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/backends/backend_qt5agg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tensorflow/python/keras/engine/input_spec.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="499">
@@ -900,13 +897,6 @@ for i in range(len(model.metrics_names)):
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exp_3_mnist_with_callback.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-234">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -1020,13 +1010,6 @@ for i in range(len(model.metrics_names)):
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/transfer-learning-inception-v3-on-cats-vs-dogs (1).ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -1052,20 +1035,27 @@ for i in range(len(model.metrics_names)):
     <entry file="file://$PROJECT_DIR$/exp_6_kaggle_titanic_dnn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="7" lean-forward="true" selection-start-line="1" selection-end-line="7" />
+          <caret line="7" selection-start-line="1" selection-end-line="7" />
           <folding>
             <element signature="e#534#565#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exp_7_kaggle_cats_vs_dogs_cnn.py">
+    <entry file="file://$PROJECT_DIR$/exp_9_kaggle_cats_vs_dogs_cnn_k_fold_c_val.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" lean-forward="true" selection-end-line="2" />
-          <folding>
-            <element signature="e#93#102#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="100">
+          <caret line="4" column="45" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="332">
+            <caret line="98" selection-start-line="98" selection-end-line="98" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1076,20 +1066,37 @@ for i in range(len(model.metrics_names)):
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exp_9_kaggle_cats_vs_dogs_cnn_k_fold_c_val.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="45" lean-forward="true" selection-end-line="4" selection-end-column="45" />
+    <entry file="file://$PROJECT_DIR$/introduction-to-cnn-keras-0-997-top-6.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="332">
-            <caret line="98" column="99" selection-start-line="98" selection-start-column="99" selection-end-line="98" selection-end-column="99" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/exp_7_kaggle_cats_vs_dogs_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="22" selection-start-line="16" selection-end-line="22" />
+          <folding>
+            <element signature="e#93#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exp_3_mnist_with_callback.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+          <folding>
+            <element signature="e#367#390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="136" column="5" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
         </state>
       </provider>
     </entry>
