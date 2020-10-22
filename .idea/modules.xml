@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../wisconsin_ds_analysis/.idea/Project1.iml" filepath="$PROJECT_DIR$/../wisconsin_ds_analysis/.idea/Project1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/tf_exp.iml" filepath="$PROJECT_DIR$/.idea/tf_exp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tf_nlp_exp/.idea/tf_nlp_exp.iml" filepath="$PROJECT_DIR$/../tf_nlp_exp/.idea/tf_nlp_exp.iml" />
     </modules>
   </component>
 </project>

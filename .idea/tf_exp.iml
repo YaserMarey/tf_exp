@@ -9,6 +9,8 @@
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6 (tf_exp) (1)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="tf_nlp_exp" />
+    <orderEntry type="module" module-name="Project1" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="pytest" />
